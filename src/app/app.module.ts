@@ -19,7 +19,7 @@ import { UsersComponent } from './states/users/users.component'
     BrowserModule,
     UIRouterModule.forRoot({
       states: STATES,
-      useHash: true,
+      useHash: false,
       config: uiRouterConfigFn
     })
   ],
