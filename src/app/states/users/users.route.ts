@@ -1,2 +1,2 @@
-import {UsersComponent} from './users.component'
-export default {name: 'users', url: '/users', component: UsersComponent};
+import {UsersComponent} from './users.component';
+export const state =  {name: 'users', url: '/users', component: UsersComponent};

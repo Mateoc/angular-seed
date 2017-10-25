@@ -1,4 +1,4 @@
-import DashboardRoute from './dashboard/dashboard.route'
-import UsersRoute from './users/users.route'
+import {state as DashboardRoute} from './dashboard/dashboard.route';
+import {state as UsersRoute} from './users/users.route';
 
 export const STATES = [DashboardRoute, UsersRoute];
