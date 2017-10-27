@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import {STATES} from './states/states';
 import { DashboardComponent } from './states/dashboard/dashboard.component';
 import { UsersComponent } from './states/users/users.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UsersComponent } from './states/users/users.component';
       states: STATES,
       useHash: false,
       config: uiRouterConfigFn
-    })
+    }),
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
